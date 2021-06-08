@@ -1,0 +1,17 @@
+Java project:
+1. download junit.jar
+2. new folder in your project
+3. paste junit.jar inside newly created folder
+4. Project>>right click>> build path>> configure build path>> libraries section>> add jar>> select junit.jar recently added your folder in project
+5. Apply>> close
+
+
+maven project:
+1. search and copy dependency of "junit" from mvnrespository site
+2. paste inside dependency section of pom.xml
+
+
+To test:
+
+1. Maven
+Project>>right click>> Run as>> Maven build...>>goals>>test-compile test
