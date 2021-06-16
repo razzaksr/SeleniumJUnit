@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Record
 {
-	private ArrayList<Assembly> data=new ArrayList<Assembly>();
-	private Scanner scanner=new Scanner(System.in);
+	public ArrayList<Assembly> data=new ArrayList<Assembly>();
+	public Scanner scanner=new Scanner(System.in);
 
 	public String createNewRecord(Assembly object) 
 	{
