@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="external/hamcrest-all-1.3.jar"/>
 	<classpathentry kind="lib" path="external/junit.jar"/>
+	<classpathentry kind="lib" path="external/testng-7.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

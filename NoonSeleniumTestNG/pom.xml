@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>sample.selenium.junit</groupId>
-  <artifactId>NoonSeleniumJUnit</artifactId>
+  <groupId>selenium.testng</groupId>
+  <artifactId>NoonSeleniumTestNG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>NoonSeleniumJUnit</name>
+  <name>NoonSeleniumTestNG</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -25,6 +25,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
 	    <groupId>org.testng</groupId>
@@ -33,6 +34,7 @@
 	    <scope>test</scope>
 	</dependency>
 	    
+    
   </dependencies>
 
   <build>

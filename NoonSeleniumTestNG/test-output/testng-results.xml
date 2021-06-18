@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-18T12:46:02 IST" name="Default suite" finished-at="2021-06-18T12:46:02 IST" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2021-06-18T12:46:02 IST" name="Default test" finished-at="2021-06-18T12:46:02 IST" duration-ms="29">
+      <class name="selenium.testng.NoonSeleniumTestNG.AppTest">
+        <test-method is-config="true" signature="eclairs()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="eclairs" finished-at="2021-06-18T12:46:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eclairs -->
+        <test-method is-config="true" signature="icecream()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="icecream" finished-at="2021-06-18T12:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- icecream -->
+        <test-method is-config="true" signature="cupcake()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="cupcake" finished-at="2021-06-18T12:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cupcake -->
+        <test-method is-config="true" signature="froyo()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="froyo" finished-at="2021-06-18T12:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- froyo -->
+        <test-method signature="donut()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="donut" finished-at="2021-06-18T12:46:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donut -->
+        <test-method is-config="true" signature="gingerbread()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="gingerbread" finished-at="2021-06-18T12:46:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gingerbread -->
+        <test-method is-config="true" signature="jellybean()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="jellybean" finished-at="2021-06-18T12:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jellybean -->
+        <test-method is-config="true" signature="apple()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@10feca44]" started-at="2021-06-18T12:46:02 IST" name="apple" finished-at="2021-06-18T12:46:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+      </class> <!-- selenium.testng.NoonSeleniumTestNG.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
