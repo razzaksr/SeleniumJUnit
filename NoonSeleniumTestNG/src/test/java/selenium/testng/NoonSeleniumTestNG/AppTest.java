@@ -1,5 +1,8 @@
 package selenium.testng.NoonSeleniumTestNG;
 
+import static org.testng.Assert.assertSame;
+import static org.testng.Assert.assertTrue;
+
 import org.junit.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -15,6 +18,7 @@ import org.testng.annotations.Test;
  */
 public class AppTest 
 {
+	Providers pro;
 	@AfterSuite
     public void apple()
     {
@@ -28,18 +32,29 @@ public class AppTest
 	@BeforeClass
     public void cupcake()
     {
-    	System.out.println("Cupcake is third android version");
+    	System.out.println("Before class method will initalize objects");
+    	pro=new Providers();
     }
     @BeforeSuite
     public void eclairs()
     {
-    	System.out.println("Eclairs, is fifth version of android");
+    	System.out.println("Before suite");
     }
     @Test
-    public void donut()
+    public void testAdd()
     {
-    	System.out.println("Donut is fourth android version");
+    	assertTrue(pro.adding(90));
+    	assertTrue(pro.adding(67));
+    	assertTrue(pro.adding(12));
     }
+    
+    @Test
+    public void testOutCome()
+    {
+    	pro.adding(10);pro.adding(45);pro.adding(55);pro.adding(36);pro.adding(88);pro.adding(22);
+    	assertSame(6, pro.length());
+    }
+    
     @BeforeMethod
     public void froyo()
     {
