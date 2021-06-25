@@ -1,0 +1,17 @@
+TestNG
+
+Test Class >> java class where we have @Test functions
+
+Test Case >> @Test functions
+
+Another way of execution
+
+XML: Run As TestNG Suite
+
+To generate XML file:
+Right click in your project >> TestNG >> Convert To TestNG
+next>> finish
+
+
+To run XML:
+right click on the xml file>> Run As>> TestNG Suite
