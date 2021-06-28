@@ -14,17 +14,17 @@ public class MyTestClass1
 	{
 		System.out.println("Simple testcase from MyTestClass1");
 	}
-	@Test
+	@Test(groups = {"anbu"})
 	public void sandal()
 	{
 		System.out.println("Sandal test case in MyTestClass1");
 	}
-	@Test
+	@Test(groups = {"kishore"})
 	public void sign()
 	{
 		System.out.println("Sign test case in MyTestClass1");
 	}
-	@Test
+	@Test(groups = {"anbu"})
 	public void santhoor()
 	{
 		System.out.println("Santhoor test case in MyTestClass1");

@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
  */
 public class AppTest 
 {
-	Providers pro;
+	Providers pro=new Providers();
 	@AfterSuite
     public void apple()
     {
@@ -32,7 +32,7 @@ public class AppTest
 	@BeforeClass
     public void cupcake()
     {
-    	System.out.println("Before class method will initalize objects");
+		System.out.println("Before class method will initalize objects");
     	pro=new Providers();
     }
     @BeforeSuite
@@ -40,7 +40,7 @@ public class AppTest
     {
     	System.out.println("Before suite");
     }
-    @Test
+    @Test(groups = {"kishore"})
     public void testAdd()
     {
     	assertTrue(pro.adding(90));
@@ -48,7 +48,7 @@ public class AppTest
     	assertTrue(pro.adding(12));
     }
     
-    @Test(enabled = false)
+    @Test(groups = {"anbu"})
     public void testOutCome()
     {
     	pro.adding(10);pro.adding(45);pro.adding(55);pro.adding(36);pro.adding(88);pro.adding(22);
