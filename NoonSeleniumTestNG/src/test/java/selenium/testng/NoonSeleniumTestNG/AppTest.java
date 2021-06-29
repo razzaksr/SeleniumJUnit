@@ -40,15 +40,16 @@ public class AppTest
     {
     	System.out.println("Before suite");
     }
-    @Test(groups = {"kishore"})
+    @Test(groups = {"kishore"}, description = "Adding three object in this test case")
     public void testAdd()
     {
     	assertTrue(pro.adding(90));
     	assertTrue(pro.adding(67));
     	assertTrue(pro.adding(12));
+    	assertSame(2, pro.length());
     }
     
-    @Test(groups = {"anbu"})
+    @Test(groups = {"anbu"},description = "Adding five object in this test case",  dependsOnMethods = {"testAdd"} )
     public void testOutCome()
     {
     	pro.adding(10);pro.adding(45);pro.adding(55);pro.adding(36);pro.adding(88);pro.adding(22);

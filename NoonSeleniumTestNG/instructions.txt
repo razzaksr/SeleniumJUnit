@@ -15,3 +15,27 @@ next>> finish
 
 To run XML:
 right click on the xml file>> Run As>> TestNG Suite
+
+
+annotations:
+beforesuite
+beforetest
+beforeclass
+beforemethod
+test
+aftermethod
+afterclass
+aftertest
+aftersuite
+
+
+attributes:
+
+annotation(attribute="value")
+
+enabled>> true/false >>
+groups
+timeOut
+priority
+description
+dependsOnMethods

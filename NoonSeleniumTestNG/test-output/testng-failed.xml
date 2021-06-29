@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Trial(failed)">
+  <test thread-count="5" name="Hello(failed)">
     <classes>
+      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass2">
+        <methods>
+          <include name="testTwo"/>
+        </methods>
+      </class> <!-- selenium.testng.NoonSeleniumTestNG.MyTestClass2 -->
       <class name="selenium.testng.NoonSeleniumTestNG.AppTest">
         <methods>
           <include name="froyo"/>
@@ -13,8 +18,9 @@
           <include name="gingerbread"/>
           <include name="jellybean"/>
           <include name="cupcake"/>
+          <include name="testAdd"/>
         </methods>
       </class> <!-- selenium.testng.NoonSeleniumTestNG.AppTest -->
     </classes>
-  </test> <!-- Trial(failed) -->
+  </test> <!-- Hello(failed) -->
 </suite> <!-- Failed suite [Suite] -->
