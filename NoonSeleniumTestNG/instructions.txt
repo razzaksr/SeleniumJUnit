@@ -39,3 +39,19 @@ timeOut
 priority
 description
 dependsOnMethods
+
+
+Parameters:
+
+TestNG Listeners:
+ITestListeners>> interface
+
+onTestStart()
+onTestSuccess()
+onTestFailure()
+onTestSkipped()
+onStart()
+onFinish()
+onTestFailedButWithinSuccessPercentage()
+
+

@@ -8,9 +8,9 @@
 		</run>
 	</groups> -->
   <test name="Hello">
-  	<parameter name="num1" value="5"/>
+  	<parameter name="num1" value="20"/>
   	<parameter name="num2" value="15"/>
-  	<parameter name="num3" value="6"/>
+  	<parameter name="num3" value="3"/>
   	<parameter name="num4" value="9"/>
   	<parameter name="statement" value="androidapp"/>
   	<parameter name="data1" value="260"/>
@@ -24,7 +24,8 @@
       
       <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass2"/> -->
       
-      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass3"/>
+      <!-- <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass3"/> -->
+      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass4"/>
     
     </classes>
   </test> <!-- Test -->

@@ -3,18 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.testng.NoonSeleniumTestNG.AppTest">
+      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass4">
         <methods>
-          <include name="froyo"/>
-          <include name="testOutCome"/>
-          <include name="eclairs"/>
-          <include name="apple"/>
-          <include name="icecream"/>
-          <include name="gingerbread"/>
-          <include name="jellybean"/>
-          <include name="cupcake"/>
+          <include name="tetsDelta"/>
+          <include name="testCosmo"/>
+          <include name="testAlpha"/>
+          <include name="testBeta"/>
         </methods>
-      </class> <!-- selenium.testng.NoonSeleniumTestNG.AppTest -->
+      </class> <!-- selenium.testng.NoonSeleniumTestNG.MyTestClass4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

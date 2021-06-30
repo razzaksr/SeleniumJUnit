@@ -1,0 +1,3 @@
+[TestClass name=class selenium.testng.NoonSeleniumTestNG.MyTestClass4]
+MyTestClass4.tetsDelta(java.lang.Double,int)[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass4@6b8ca3c8] getting success 
+File getting close
