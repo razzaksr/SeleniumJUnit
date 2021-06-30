@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-28T13:25:45 IST" name="Suite" finished-at="2021-06-28T13:25:45 IST" duration-ms="74">
+  <suite started-at="2021-06-30T13:07:43 IST" name="Suite" finished-at="2021-06-30T13:07:43 IST" duration-ms="78">
     <groups>
-      <group name="kishore">
-        <method signature="AppTest.testAdd()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@50ad3bc1]" name="testAdd" class="selenium.testng.NoonSeleniumTestNG.AppTest"/>
-        <method signature="MyTestClass1.sign()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" name="sign" class="selenium.testng.NoonSeleniumTestNG.MyTestClass1"/>
-        <method signature="MyTestClass2.testOne()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass2@7ea9e1e2]" name="testOne" class="selenium.testng.NoonSeleniumTestNG.MyTestClass2"/>
-      </group> <!-- kishore -->
-      <group name="anbu">
-        <method signature="AppTest.testOutCome()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@50ad3bc1]" name="testOutCome" class="selenium.testng.NoonSeleniumTestNG.AppTest"/>
-        <method signature="MyTestClass1.sandal()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" name="sandal" class="selenium.testng.NoonSeleniumTestNG.MyTestClass1"/>
-        <method signature="MyTestClass1.santhoor()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" name="santhoor" class="selenium.testng.NoonSeleniumTestNG.MyTestClass1"/>
-        <method signature="MyTestClass2.testTwo()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass2@7ea9e1e2]" name="testTwo" class="selenium.testng.NoonSeleniumTestNG.MyTestClass2"/>
-      </group> <!-- anbu -->
     </groups>
-    <test started-at="2021-06-28T13:25:45 IST" name="Hello" finished-at="2021-06-28T13:25:45 IST" duration-ms="74">
-      <class name="selenium.testng.NoonSeleniumTestNG.AppTest">
-        <test-method signature="testAdd()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@50ad3bc1]" started-at="2021-06-28T13:25:45 IST" name="testAdd" finished-at="2021-06-28T13:25:45 IST" duration-ms="12" status="PASS">
+    <test started-at="2021-06-30T13:07:43 IST" name="Hello" finished-at="2021-06-30T13:07:43 IST" duration-ms="78">
+      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass3">
+        <test-method signature="testAlpha(int,int)[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass3@73ee04c8]" started-at="2021-06-30T13:07:43 IST" name="testAlpha" finished-at="2021-06-30T13:07:43 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAdd -->
-        <test-method signature="testOutCome()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.AppTest@50ad3bc1]" started-at="2021-06-28T13:25:45 IST" name="testOutCome" finished-at="2021-06-28T13:25:45 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testAlpha -->
+        <test-method signature="testBeta(int,int)[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass3@73ee04c8]" started-at="2021-06-30T13:07:43 IST" name="testBeta" finished-at="2021-06-30T13:07:43 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOutCome -->
-      </class> <!-- selenium.testng.NoonSeleniumTestNG.AppTest -->
-      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass1">
-        <test-method signature="sandal()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" started-at="2021-06-28T13:25:45 IST" name="sandal" finished-at="2021-06-28T13:25:45 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testBeta -->
+        <test-method signature="testCosmo(java.lang.String)[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass3@73ee04c8]" started-at="2021-06-30T13:07:43 IST" name="testCosmo" finished-at="2021-06-30T13:07:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidapp]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sandal -->
-        <test-method signature="santhoor()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" started-at="2021-06-28T13:25:45 IST" name="santhoor" finished-at="2021-06-28T13:25:45 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testCosmo -->
+        <test-method signature="tetsDelta(java.lang.Double,int)[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass3@73ee04c8]" started-at="2021-06-30T13:07:43 IST" name="tetsDelta" finished-at="2021-06-30T13:07:43 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[260.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- santhoor -->
-        <test-method signature="sign()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass1@101952da]" started-at="2021-06-28T13:25:45 IST" name="sign" finished-at="2021-06-28T13:25:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign -->
-      </class> <!-- selenium.testng.NoonSeleniumTestNG.MyTestClass1 -->
-      <class name="selenium.testng.NoonSeleniumTestNG.MyTestClass2">
-        <test-method signature="testOne()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass2@7ea9e1e2]" started-at="2021-06-28T13:25:45 IST" name="testOne" finished-at="2021-06-28T13:25:45 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testTwo()[pri:0, instance:selenium.testng.NoonSeleniumTestNG.MyTestClass2@7ea9e1e2]" started-at="2021-06-28T13:25:45 IST" name="testTwo" finished-at="2021-06-28T13:25:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- selenium.testng.NoonSeleniumTestNG.MyTestClass2 -->
+        </test-method> <!-- tetsDelta -->
+      </class> <!-- selenium.testng.NoonSeleniumTestNG.MyTestClass3 -->
     </test> <!-- Hello -->
   </suite> <!-- Suite -->
 </testng-results>
